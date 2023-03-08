@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "avid-keel-374612-tfstate"
     prefix = "env/prod"
   }
 }
