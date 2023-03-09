@@ -15,7 +15,8 @@
 
 terraform {
   backend "gcs" {
-    bucket = "avid-keel-374612-tfstate"
+    bucket = "nodal-figure-380120-tfstate"
     prefix = "env/dev"
   }
 }
+
