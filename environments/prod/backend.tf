@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "nodal-figure-380120-tfstate"
+    bucket = "quixotic-strand-380120-tfstate"
     prefix = "env/prod"
   }
 }
